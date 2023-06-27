@@ -16,13 +16,14 @@ const Services = () => {
   return (
 
     <Box margin={3}>
-      <Grid container mb={3} direction={'row'} justifyContent={'center'}  spacing={1}>
-        <Grid item >
-     
-            <Typography padding={3}   fontWeight={700} color={'GrayText'} variant='h2'>
+      <Grid container mb={2} direction={'row'} justifyContent={'center'}  spacing={1}>
+        <Grid item sx={12} md={10} lg={8} textAlign={'center'} >
+            <Typography padding={2}   fontWeight={700} color={'GrayText'} variant='h2'>
               Services
             </Typography>
-       
+            <Typography padding={1}  color={'GrayText'} variant='h5'>
+            GIS services, or Geographic Information System services, refer to the range of activities and solutions provided by professionals and organizations that utilize GIS technology to analyze, manage, and visualize spatial data.
+            </Typography>
         </Grid>
       </Grid>
       <Grid container  spacing={2} direction="row" justifyContent="center" >
